@@ -2,7 +2,7 @@
   display: none;
 }
 body {
-  font-family: "Geometria";
+  font-family: "Geometria" !important;
   font-size: 20px !important;
   max-width: 1200px;
   height: 100%;
@@ -235,8 +235,18 @@ body {
 
 .moreinf {
   color: black;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 20px;
 }
 
 .moreinf:hover {
   color: aqua;
+}
+
+.slider-txt {
+  color: black;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 20px;
 }

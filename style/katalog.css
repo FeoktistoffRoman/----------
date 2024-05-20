@@ -169,7 +169,7 @@ body {
 .block2 {
   margin-top: 250px;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
   width: 100%;
   height: 100%;
 }
@@ -194,8 +194,7 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-
-  width: 90%;
+  width: 80%;
   height: 100%;
   background-color: rgb(170, 169, 169);
   border-radius: 30px;
@@ -204,4 +203,63 @@ body {
 .vidio {
   width: 60%;
   height: 30%;
+}
+
+.plast-case {
+  margin: 0 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.plast-case:hover {
+  scale: 0.9;
+}
+
+.kod {
+  color: white;
+  text-decoration: none;
+}
+
+.kod:hover {
+  color: aqua;
+}
+
+.case-gray1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 90%;
+}
+
+.case-gray2 {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 5%;
+}
+
+#sortByName {
+  border-radius: 20px;
+}
+
+#sortByName:hover {
+  background-color: antiquewhite;
+  scale: 0.9;
+}
+
+#cancel {
+  border-radius: 20px;
+}
+
+#cancel:hover {
+  background-color: antiquewhite;
+  scale: 0.9;
+}
+
+.p1 {
+  color: white;
 }
