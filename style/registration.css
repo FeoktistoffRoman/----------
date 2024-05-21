@@ -210,3 +210,7 @@ form {
   width: 80%;
   height: 80%;
 }
+
+.checkbox-txt {
+  text-decoration: none;
+}
